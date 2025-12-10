@@ -53,12 +53,15 @@ i{
 .hero{
     height: 70vh;
     background-image: url(../Images/waterfall.jpg);
-}
-h1{
-    padding-top: 200px;
-    font-size: 50px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: white;
 }
+
 
 
 /* .hero{
